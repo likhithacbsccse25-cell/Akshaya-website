@@ -4,10 +4,10 @@
 */
 (() => {
   const sampleMenu = [
-    { id: 'm1', name: 'Fancy dress', price: 1790, img src="fancy.jpg" alt="dress"  },
-    { id: 'm2', name: 'Summer ware', price: 2499, img src="summer ware.jpg" alt="dress" },
-    { id: 'm3', name: 'traditional dress', price: 2999, img src="traditional dress.jpg" alt="dress"},
-    { id: 'm4', name: 'cocktail', price: 1290, img src="cocktail.jpg" alt="dress" }
+    { id: 'm1', name: 'Fancy dress', price: 1790, img src="fancy.jpeg" alt="dress"  },
+    { id: 'm2', name: 'Summer ware', price: 2499, img src="summer ware.jpeg" alt="dress" },
+    { id: 'm3', name: 'traditional dress', price: 2999, img src="traditional dress.jpeg" alt="dress"},
+    { id: 'm4', name: 'cocktail', price: 1290, img src="cocktail.jpeg" alt="dress" }
   ];
 
   /* --- utils --- */
