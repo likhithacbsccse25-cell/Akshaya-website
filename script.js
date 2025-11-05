@@ -3,12 +3,12 @@
    - User (mock) stored under 'delish_user'
 */
 (() => {
-  const sampleMenu = [
-    { id: 'm1', name: 'Fancy dress', price: 1790, img src="fancy.jpeg" alt="dress"  },
-    { id: 'm2', name: 'Summer ware', price: 2499, img src="summer ware.jpeg" alt="dress" },
-    { id: 'm3', name: 'traditional dress', price: 2999, img src="traditional dress.jpeg" alt="dress"},
-    { id: 'm4', name: 'cocktail', price: 1290, img src="cocktail.jpeg" alt="dress" }
-  ];
+ const sampleMenu = [
+  { id: 'm1', name: 'Fancy dress', price: 1790, img: 'fancy.jpeg', alt: 'dress' },
+  { id: 'm2', name: 'Summer ware', price: 2499, img: 'summer ware.jpeg', alt: 'dress' },
+  { id: 'm3', name: 'Traditional dress', price: 2999, img: 'traditional dress.jpeg', alt: 'dress' },
+  { id: 'm4', name: 'Cocktail', price: 1290, img: 'cocktail.jpeg', alt: 'dress' }
+];
 
   /* --- utils --- */
   const el = id => document.getElementById(id);
